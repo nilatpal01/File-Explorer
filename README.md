@@ -1,40 +1,49 @@
-<<<<<<< HEAD
 # Project Setup
 
-To see changes in the application, start both the frontend and backend servers.
+Welcome to the project! This guide will help you set up both the frontend and backend servers so you can see and test changes in the application locally.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Environment Variables](#environment-variables)
+- [Starting the Servers](#starting-the-servers)
+  - [1. Start the Backend Server](#1-start-the-backend-server)
+  - [2. Start the Frontend Server](#2-start-the-frontend-server)
+- [Accessing the Application](#accessing-the-application)
 
 ## Prerequisites
 
-Ensure you have the following installed:
+Before you begin, ensure you have the following installed on your machine:
 
-- **Node.js** (version 14 or higher)
-- **npm** (Node Package Manager)
+- **Node.js**: We recommend version 14 or higher for compatibility.
+- **npm**: The Node Package Manager, which comes with Node.js.
 
 ## Environment Variables
 
-Create a `.env` file in the `Frontend` directory with the required variables. For example:
-
+To configure the application properly, create a `.env` file in the `Frontend` directory with the required environment variables. For example:
 REACT_APP_API_BASE_URL=http://localhost:3000/api
 
 ## Starting the Servers
 
-1. Start the Backend Server
+To see changes in the application, you need to start both the backend and frontend servers. Follow the instructions below:
 
-# Navigate to the Backend directory:
+### 1. Start the Backend Server
 
-cd Backend
-npm install
-npm run dev
+- Navigate to the **Backend** directory:
+  
+**cd Backend**
+Install the necessary dependencies:
+**npm install**
+Run the backend server in development mode:
+**npm run dev**
 
-2. Start the Frontend Server
+### 2. Start the Frontend Server
+- Navigate to the **Frontend** directory:
 
-# Navigate to the Frontend directory:
+**cd Frontend**
+Install the required dependencies:
+**npm install**
+Start the frontend server:
+**npm start**
 
-cd Frontend
-npm install
-npm start
-
-# The frontend application should now be running on http://localhost:3001 (or another available port if 3000 is occupied by the backend).
-=======
-# FileExplorer
->>>>>>> d0b2a89 (Initial commit)
+Once both servers are running, you should see messages in the console indicating that they are active.
