@@ -1,0 +1,129 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f4f8, #d9e8f5);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.file-item button {
+  margin-left: 10px;
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+.file-item button:hover {
+  background-color: #cbd5e0;
+}
+
+.folder-item {
+  margin: 5px 0;
+}
+
+.folder-item > div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #e8f0fe;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+}
+
+.folder-item .folder-contents {
+  padding-left: 20px;
+}
+
+.folder-item button {
+  margin-left: 10px;
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+.folder-item button:hover {
+  background-color: #cbd5e0;
+}
+
+.file-explorer {
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.file-explorer-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.file-explorer-header button {
+  background-color: #3182ce;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-explorer-header button:hover {
+  background-color: #2b6cb0;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-container button {
+  background-color: #3182ce;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #2b6cb0;
+}
+
+.empty-message {
+  color: #718096;
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+}
